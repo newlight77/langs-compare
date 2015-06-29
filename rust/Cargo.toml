@@ -1,0 +1,9 @@
+[package]
+name = "test" # the name of the package
+version = "0.0.1"    # the current version, obeying semver
+authors = [ "you@example.com" ]
+[[bin]]
+name = "test"
+path = "test.rs"
+[dependencies]
+time = "*"
